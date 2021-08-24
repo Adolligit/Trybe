@@ -1,3 +1,5 @@
+# B3D4230821
+
 ## Momento inicial
 
 - Começamos a falar sobre empatia e o Bruno levantou uma pergunta para a tuma sobre: "O que é empatia?".

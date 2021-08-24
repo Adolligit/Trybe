@@ -1,3 +1,5 @@
+# B3D4230821
+
 ## Momento inicial
 
 - Começamos a falar sobre empatia e o Bruno levantou uma pergunta para a tuma sobre: "O que é empatia?".
@@ -46,4 +48,12 @@
 - Há profissões para gerar um bom rankeamento da página nos mecanismos de busca com SEO.
 - Comentaŕio sobre a tag <article>: tudo que estiver na tag deve faze sentido em qualquer lugar. Pode ser encaixado em muitos lugares.
 - Entendimento do uso da tag <div>: pode ser utilizada em qualquer lugar, mas que não faz sentido semântico ao HTML.
-- 
+
+## Webinar: Rodrigo Schmidt
+
+- Saber qual oportunidade quando os projetos não darão certo para então sair.
+- Qual o foco para quem esta no começo de carreira?
+  - tenha uma boa fundação sobre tecnologia;
+  - se você se especializar demais, você tem dificuldade para sair desta área;
+  - tenha uma gama de conhecimento diversificada na área de TI;
+

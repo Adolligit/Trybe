@@ -18,7 +18,7 @@
   - Regras de padronização para construção de páginas para web.
 - Buscar sempre tags no HTML que descreva o conteúdo que você pretende inserir na página. 
 - A semântica esta relacionada ao código e não a estruturação da página. Isso significa que não faz tanta diferença para usuários comuns, porém manter um HTML semântico ajuda na construção e entendimento da estrutra da página.
-- O apresentador Ícaro Harry apresentou os sites: [dev.to]() (conteúdos sobre programação) e [htmlreference.io]() (tagas do HTML).
+- O apresentador Ícaro Harry apresentou os sites: [dev.to](https://dev.to/) (conteúdos sobre programação) e [htmlreference.io](https://htmlreference.io/) (tagas do HTML).
 
 ### Inline, Block e Inline-block
 

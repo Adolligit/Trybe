@@ -13,5 +13,10 @@ if(queenRowPosition === opponentColumnPosition || queenColumnPosition === oppone
 for(let upperRight = 1; upperRight < 8; upperRight++){
     let currentQueenRow = queenRowPosition + upperRight;
     let currentQueenColumn = queenColumnPosition + upperRight;
+
+    if(currentQueenRow > 8 || currentQueenColumn > 8){
+        break;
+    }
+    console.log(currentQueenRow, currentQueenColumn);
 }
 console.log('Pode atacar? ' + canAttack);

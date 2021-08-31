@@ -5,11 +5,11 @@ function generateRandomNumber(){
 function generateGame(){
     let megaSenaDraw = [];
 
-    for(let i = 0; i < 6; i += i){
-        megaSenaDraw[i] = megaSenaDraw;
+    for(let i = 0; i < 6; i++){
+        megaSenaDraw[i] = generateRandomNumber();
     }
 
     return megaSenaDraw;
 }
 
-console.log('fdfdf');
+console.log(generateGame());

@@ -13,19 +13,18 @@
 ## Plataforma do Curso - Dom e Seletores
 
 - DOM serve para criar comandos de manipulação aos navegadores em relação aos elementos da página que você esta desenvolvendo. Quando uma página é carrega pelo navegador, este cria um DOM.
-- DOM (Documento Objet Model) e me parece muito Orientação Orientada a Gambiarra.
+- DOM (Documento Objet Model) me parece muito Programação Orientada a Gambiarra.
 
 ## Aula ao vivo
 
 - DOM é como nós representamos os elementos na página; como uma árvore.
 - Aprendendo como selecionar um elemento dentro da página.
-  - document.getElementById: retorna o nome do aqpega um elemento pelo id.
-  - document.getElementsByTagName: retorna uma lista de itens pelo nome da tag.
-  - document.getElementsByClassName: retorna uma lista de itens pelo nome da classe.
-  - document.querySelector: retorna um elemento, id e class. Você seleciona como se estivesse no CSS. Chamando uma class 'Holiday': document.querySelector('.holiday').
+  - **document.getElementById**: retorna o nome do um elemento pelo id.
+  - **document.getElementsByTagName**: retorna uma lista de itens pelo nome da tag.
+  - **document.getElementsByClassName**: retorna uma lista de itens pelo nome da classe.
+  - **document.querySelector**: retorna um elemento, id e class. Você seleciona como se estivesse no CSS. Chamando uma class 'Holiday': document.querySelector('.holiday').
   - 
 
 ## Fechamento 
 
 Silmara Oliveira
-

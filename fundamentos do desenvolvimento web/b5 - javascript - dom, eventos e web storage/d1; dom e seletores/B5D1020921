@@ -1,4 +1,4 @@
-# B5D1020921
+# B5D1020921 | JavaScript - Dom e Seletores
 
 ## Momento inicial: Soft-Skills
 
@@ -10,20 +10,24 @@
   - Elon Musk é alguém uma pessoa que eu admiro muito, apesar de ser alguém que nunca conheci. Para falar a verdade eu nem sei se ele existe, mas gosto muito da sua história e do que faz.
 - O Bruno mencionou que mesmo que seja poucos valores diferente você precisa estar conectado com a empresa e com aquilo que você esta fazendo, pois do contrário vai afetar seu desempenho.
 
-## Plataforma do Curso - Dom e Seletores
+## Plataforma do Curso 
 
 - DOM serve para criar comandos de manipulação aos navegadores em relação aos elementos da página que você esta desenvolvendo. Quando uma página é carrega pelo navegador, este cria um DOM.
 - DOM (Documento Objet Model) me parece muito Programação Orientada a Gambiarra.
+- **innerHTML**: acessa o que há no elemento.
+- **innerText**: acessa todo texto no elemento.
+- **getElementsByTagName**: retorna uma lista de elementos acessado pelo nome deste, junto à um vetor de propriedades e valores dos elemento da lista.
+
+> Parte II - Seletores de elementos
 
 ## Aula ao vivo
 
 - DOM é como nós representamos os elementos na página; como uma árvore.
 - Aprendendo como selecionar um elemento dentro da página.
-  - **document.getElementById**: retorna o nome do um elemento pelo id.
+  - **document.getElementById**: retorna o nome de um elemento pelo id.
   - **document.getElementsByTagName**: retorna uma lista de itens pelo nome da tag.
   - **document.getElementsByClassName**: retorna uma lista de itens pelo nome da classe.
-  - **document.querySelector**: retorna um elemento, id e class. Você seleciona como se estivesse no CSS. Chamando uma class 'Holiday': document.querySelector('.holiday').
-  - 
+  - **document.querySelector**:  recebe como parâmetro a sintaxe de CSS e retorna um elemento específico.
 
 ## Fechamento 
 

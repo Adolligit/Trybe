@@ -1,15 +1,17 @@
 const techList = require("../src/TechList.js");
 
+console.log(techList)
+
 describe("Testa a função techList", () => {
 	it("Testa se a função techList é definida", () => {
 		expect(techList).toBeDefined();
 	});
 
-	it("Testa se techList é uma função", () => {
+	it("Retornar verdadeira ao verificar se techList é uma função", () => {
 		expect(typeof techList).toBe("function");
 	});
 
-	it("Lista com 5 tecnologia deve retornar uma lista de objetos ordenados", () => {
+	it("Ao receber uma lista com 5 tecnologia, será retornada outra com  objetos ordenados", () => {
 		expect(
 			techList(["React", "Jest", "HTML", "CSS", "JavaScript"], "Lucas")
 		).toEqual([

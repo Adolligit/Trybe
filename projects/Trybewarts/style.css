@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  background-color: rgb(239, 239, 239);
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  height: 70px;
+}
+
+.header figure {
+  display: flex;
+  margin-left: 10px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-self: center;
+  margin-right: 10px;
+}
+
+#trybewarts-header-title {
+  display: flex;
+  align-self: center;
+  color: white;
+  font-size: 3em;
+}
+
+#main-form {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  flex-flow: 1;
+  height: 500px;
+}
+
+#evaluation-form {
+  margin-top: 40px;
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.validation-input {
+  display: flex;
+  align-items: center;
+}
+
+.input-radio-family {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-checkbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-radio-valuation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-styles {
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-styles {
+  width: 120px;
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  font-size: 12pt;
+  font-weight: 700;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  background-color: blueviolet;
+}
+
+.input-validation {
+  width: 260px;
+  height: 30px;
+  flex-grow: 1;
+}
+
+hr {
+  margin: 15px 0;
+}
+
+.validation-input-family {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.input-checkbox div {
+  display: flex;
+}
+
+.input-checkbox div div {
+  margin-right: 50px;
+}
+
+.satisfaction-evaluation div label {
+  margin-right: 10px;
+}
+
+#textarea {
+  width: 100%;
+  resize: none;
+  padding: 3px;
+}
+
+#div-textarea {
+  margin-top: 20px;
+}
+
+#counter {
+  float: right;
+  position: relative;
+  bottom: 25px;
+}
+
+.agreement {
+  margin: 10px auto;
+}
+
+#submit-btn {
+  margin: 5px 0;
+  width: 100%;
+  padding: 10px;
+}
+
+footer {
+  display: flex;
+  height: 50px;
+  background-color: rgb(60, 64, 74);
+  color: rgb(248, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-enter {
+  cursor: pointer;
+}
+
+.label-styles {
+  padding: 5px;
+  display: flex;
+  font-size: 13pt;
+}
+
+#house { /* <select> */
+  background: white;
+  width: 268px;
+  font-size: 15px;
+  line-height: 1;
+  height: 45px;
+  border-radius: 5px;
+}
+
+p {
+  word-break: break-word;
+}

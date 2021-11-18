@@ -1,0 +1,718 @@
+{
+  "stats": {
+    "suites": 11,
+    "tests": 22,
+    "passes": 19,
+    "pending": 0,
+    "failures": 3,
+    "start": "2021-08-29T01:05:22.263Z",
+    "end": "2021-08-29T01:05:38.601Z",
+    "duration": 16338,
+    "testsRegistered": 22,
+    "passPercent": 86.36363636363636,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1c3591be-217c-4e8a-9fca-26fc0f94410c",
+      "title": "",
+      "fullFile": "cypress/integration/project.spec.js",
+      "file": "cypress/integration/project.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "33e805ef-a22e-42c9-b4d0-f4fd582068c9",
+          "title": "1 - Adicione uma cor de fundo específica para a página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Possuir cor de fundo: rgb(253, 251, 251)",
+              "fullTitle": "1 - Adicione uma cor de fundo específica para a página Possuir cor de fundo: rgb(253, 251, 251)",
+              "timedOut": null,
+              "duration": 127,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('body').should('have.css', 'backgroundColor', 'rgb(253, 251, 251)');",
+              "err": {},
+              "uuid": "308be190-15cd-4c24-8a90-abd511bc0317",
+              "parentUUID": "33e805ef-a22e-42c9-b4d0-f4fd582068c9",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "308be190-15cd-4c24-8a90-abd511bc0317"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 127,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "19a9c04c-6ae3-4e3b-95df-31cbc375c80a",
+          "title": "2 - Adicione uma barra superior com um título",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A barra deve possuir o ID \"cabecalho\"",
+              "fullTitle": "2 - Adicione uma barra superior com um título A barra deve possuir o ID \"cabecalho\"",
+              "timedOut": null,
+              "duration": 103,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('#cabecalho');",
+              "err": {},
+              "uuid": "acd19376-d1b7-4f76-bc0d-e3153eb7a8bf",
+              "parentUUID": "19a9c04c-6ae3-4e3b-95df-31cbc375c80a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A barra superior deve ser fixa no topo da página, com a propriedade top tendo o valor `0`",
+              "fullTitle": "2 - Adicione uma barra superior com um título A barra superior deve ser fixa no topo da página, com a propriedade top tendo o valor `0`",
+              "timedOut": null,
+              "duration": 105,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('#cabecalho').should('have.css', 'position', 'fixed').should('have.css', 'top', '0px');",
+              "err": {},
+              "uuid": "3d612ab1-7409-4cbb-9e76-fa840751cabb",
+              "parentUUID": "19a9c04c-6ae3-4e3b-95df-31cbc375c80a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "O título deve estar dentro da barra e possuir o ID \"titulo\", além de ser uma tag \"h1\"",
+              "fullTitle": "2 - Adicione uma barra superior com um título O título deve estar dentro da barra e possuir o ID \"titulo\", além de ser uma tag \"h1\"",
+              "timedOut": null,
+              "duration": 86,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('#cabecalho h1#titulo');",
+              "err": {},
+              "uuid": "0a9dc2f3-67ab-4afe-b32d-fb3e44861958",
+              "parentUUID": "19a9c04c-6ae3-4e3b-95df-31cbc375c80a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "acd19376-d1b7-4f76-bc0d-e3153eb7a8bf",
+            "3d612ab1-7409-4cbb-9e76-fa840751cabb",
+            "0a9dc2f3-67ab-4afe-b32d-fb3e44861958"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 294,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "11d77e42-992f-4c4a-b5c6-89c5375323fe",
+          "title": "3 - Adicione uma foto sua à página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A foto deve ser inserida utilizando uma tag img com o ID \"minha_foto\"",
+              "fullTitle": "3 - Adicione uma foto sua à página A foto deve ser inserida utilizando uma tag img com o ID \"minha_foto\"",
+              "timedOut": null,
+              "duration": 94,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('img#minha_foto').should('have.attr', 'src');",
+              "err": {},
+              "uuid": "0a49166c-c960-44e7-9593-6dd379da2817",
+              "parentUUID": "11d77e42-992f-4c4a-b5c6-89c5375323fe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0a49166c-c960-44e7-9593-6dd379da2817"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 94,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "355c7a65-0eba-4184-b9eb-2c8a380da876",
+          "title": "4 - Adicione uma lista de lições aprendidas à página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A lista deve ser numerada e possuir o ID \"licoes_aprendidas\"",
+              "fullTitle": "4 - Adicione uma lista de lições aprendidas à página A lista deve ser numerada e possuir o ID \"licoes_aprendidas\"",
+              "timedOut": null,
+              "duration": 155,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('ol#licoes_aprendidas');",
+              "err": {},
+              "uuid": "069db4dd-8623-4db1-a1d0-29961b2609de",
+              "parentUUID": "355c7a65-0eba-4184-b9eb-2c8a380da876",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A lista deve possuir 10 itens",
+              "fullTitle": "4 - Adicione uma lista de lições aprendidas à página A lista deve possuir 10 itens",
+              "timedOut": null,
+              "duration": 138,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('ol#licoes_aprendidas').find('li').should('have.length', 10);",
+              "err": {},
+              "uuid": "6b505486-f1bf-4c93-8688-ab8224148325",
+              "parentUUID": "355c7a65-0eba-4184-b9eb-2c8a380da876",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "069db4dd-8623-4db1-a1d0-29961b2609de",
+            "6b505486-f1bf-4c93-8688-ab8224148325"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 293,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "ea73623c-c6fc-417a-ba10-a7f468419aa3",
+          "title": "5 - Crie uma lista de lições que ainda deseja aprender para a página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A lista não deve ser numerada e deve possuir o ID \"licoes_a_aprender\"",
+              "fullTitle": "5 - Crie uma lista de lições que ainda deseja aprender para a página A lista não deve ser numerada e deve possuir o ID \"licoes_a_aprender\"",
+              "timedOut": null,
+              "duration": 124,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('ul#licoes_a_aprender');",
+              "err": {},
+              "uuid": "1aeca416-1503-4dc9-b206-e36f9b3e9f23",
+              "parentUUID": "ea73623c-c6fc-417a-ba10-a7f468419aa3",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A lista deve possuir 10 itens",
+              "fullTitle": "5 - Crie uma lista de lições que ainda deseja aprender para a página A lista deve possuir 10 itens",
+              "timedOut": null,
+              "duration": 123,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('ul#licoes_a_aprender').find('li').should('have.length', 10);",
+              "err": {},
+              "uuid": "c3b79ee5-58f3-4f19-b3e4-afe018a2b759",
+              "parentUUID": "ea73623c-c6fc-417a-ba10-a7f468419aa3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1aeca416-1503-4dc9-b206-e36f9b3e9f23",
+            "c3b79ee5-58f3-4f19-b3e4-afe018a2b759"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 247,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "5295031c-0bea-4fb4-ab45-c54f601f68ca",
+          "title": "6 - Adicione um rodapé para a página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "O rodapé deve possuir o ID \"rodape\"",
+              "fullTitle": "6 - Adicione um rodapé para a página O rodapé deve possuir o ID \"rodape\"",
+              "timedOut": null,
+              "duration": 101,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('footer#rodape').should('exist');",
+              "err": {},
+              "uuid": "4b63bb52-fa9a-4273-b646-0a628cc1e651",
+              "parentUUID": "5295031c-0bea-4fb4-ab45-c54f601f68ca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4b63bb52-fa9a-4273-b646-0a628cc1e651"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 101,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "69720f40-8b4b-4d6e-b585-14a748a4b789",
+          "title": "7 - Insira pelo menos um link externo na página",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A configuração desse link deve ser feita para abrir em uma nova aba do navegador",
+              "fullTitle": "7 - Insira pelo menos um link externo na página A configuração desse link deve ser feita para abrir em uma nova aba do navegador",
+              "timedOut": null,
+              "duration": 101,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('a').then(function (a) {\n  var actual = Array.from(a).some(function (element) {\n    return element.target === '_blank' && element.href !== '';\n  });\n  expect(actual).to.be[\"true\"];\n});",
+              "err": {},
+              "uuid": "0bb0bef2-92c0-4aa3-b96e-b6039db67c0b",
+              "parentUUID": "69720f40-8b4b-4d6e-b585-14a748a4b789",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0bb0bef2-92c0-4aa3-b96e-b6039db67c0b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 101,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "4a982d2b-c882-4dd7-a2d7-396a12891f32",
+          "title": "8 - Crie um artigo sobre seu aprendizado",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A `tag` `article` devem ser utilizadas",
+              "fullTitle": "8 - Crie um artigo sobre seu aprendizado A `tag` `article` devem ser utilizadas",
+              "timedOut": null,
+              "duration": 111,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('article');",
+              "err": {},
+              "uuid": "6234cb8d-4825-4ba3-85da-d80e169a6fe4",
+              "parentUUID": "4a982d2b-c882-4dd7-a2d7-396a12891f32",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "O artigo deve ter mais de 300 caracteres e menos de 600",
+              "fullTitle": "8 - Crie um artigo sobre seu aprendizado O artigo deve ter mais de 300 caracteres e menos de 600",
+              "timedOut": null,
+              "duration": 116,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('article').invoke('text').then(function (text) {\n  expect(text).to.have.length.of.at.most(600);\n  expect(text).to.have.length.of.at.above(300);\n});",
+              "err": {
+                "message": "AssertionError: expected '\\n        A Trybe realmente esta valendo a pena?\\n        A Trybe prometeu ser uma escola de um aprendizado totalmente diferenciado e até o momento deste artigo, ela conseguiu cumprir esse objetivo.\\n        Apesar de ser muito cedo para dizer que eu, de fato, vou aprender tudo que eles propoẽm, desde o Welcome Day! eu já percebi que eles filtraram tanto as dificuldades de um ensino a distância que somente isso já coloca a Trybe na frente de todas as escola que conheço.\\n        Conhecimentoe em programação\\n        Eu já tenho um pouco de conhecimento em programação, pois eu me formei como técnico de informática na ETEC e lá eu aprendiz programação orienteda a gambiarra objeto com Java e Visual Basic .NET.\\n    \\n        \\n    ' to have a length at most 600 but got 730",
+                "estack": "AssertionError: expected '\\n        A Trybe realmente esta valendo a pena?\\n        A Trybe prometeu ser uma escola de um aprendizado totalmente diferenciado e até o momento deste artigo, ela conseguiu cumprir esse objetivo.\\n        Apesar de ser muito cedo para dizer que eu, de fato, vou aprender tudo que eles propoẽm, desde o Welcome Day! eu já percebi que eles filtraram tanto as dificuldades de um ensino a distância que somente isso já coloca a Trybe na frente de todas as escola que conheço.\\n        Conhecimentoe em programação\\n        Eu já tenho um pouco de conhecimento em programação, pois eu me formei como técnico de informática na ETEC e lá eu aprendiz programação orienteda a gambiarra objeto com Java e Visual Basic .NET.\\n    \\n        \\n    ' to have a length at most 600 but got 730\n    at Context.eval (http://localhost:44161/__cypress/tests?p=cypress/integration/project.spec.js:225:41)",
+                "diff": "- 730\n+ 600\n"
+              },
+              "uuid": "60090dae-6649-4dab-8968-659ff15b2562",
+              "parentUUID": "4a982d2b-c882-4dd7-a2d7-396a12891f32",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6234cb8d-4825-4ba3-85da-d80e169a6fe4"
+          ],
+          "failures": [
+            "60090dae-6649-4dab-8968-659ff15b2562"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 227,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d3fdae79-81bd-4ee2-92ae-c51ef8436c9a",
+          "title": "9 - Crie uma seção que conta uma passagem sobre seu aprendizado",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "A `tag` `aside` deve ser utilizada",
+              "fullTitle": "9 - Crie uma seção que conta uma passagem sobre seu aprendizado A `tag` `aside` deve ser utilizada",
+              "timedOut": null,
+              "duration": 95,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('aside');",
+              "err": {},
+              "uuid": "3f7e4d4f-0f49-4047-8b85-f0ab047eca10",
+              "parentUUID": "d3fdae79-81bd-4ee2-92ae-c51ef8436c9a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "A seção deve ter mais que 100 caracteres e menos que 300",
+              "fullTitle": "9 - Crie uma seção que conta uma passagem sobre seu aprendizado A seção deve ter mais que 100 caracteres e menos que 300",
+              "timedOut": null,
+              "duration": 128,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('aside').invoke('text').then(function (text) {\n  expect(text).to.have.length.of.at.above(100);\n  expect(text).to.have.length.of.at.most(300);\n});",
+              "err": {
+                "message": "AssertionError: expected '\\n        Lições\\n        \\n            Comandos Shell;\\n            Git e Github;\\n            Como a internet funciona;\\n            Estrutura de página;\\n            Seletores e posicionamento;\\n            Zoom;\\n            Semântica HTML;\\n            Arranjos e estrutura de repetição;\\n            Lógica de programação;\\n            Slack.\\n        \\n        \\n            Objeto e funções.\\n            Desenvolver projeto playground.\\n            DOM.\\n            Eventos.\\n            Web Storage.\\n            Testes Unitários.\\n            ES6.\\n            Higher Order Function.\\n            Desenvolvimento do projeto Zoo Functions.\\n            Testes automizados.\\n        \\n    ' to have a length at most 300 but got 673",
+                "estack": "AssertionError: expected '\\n        Lições\\n        \\n            Comandos Shell;\\n            Git e Github;\\n            Como a internet funciona;\\n            Estrutura de página;\\n            Seletores e posicionamento;\\n            Zoom;\\n            Semântica HTML;\\n            Arranjos e estrutura de repetição;\\n            Lógica de programação;\\n            Slack.\\n        \\n        \\n            Objeto e funções.\\n            Desenvolver projeto playground.\\n            DOM.\\n            Eventos.\\n            Web Storage.\\n            Testes Unitários.\\n            ES6.\\n            Higher Order Function.\\n            Desenvolvimento do projeto Zoo Functions.\\n            Testes automizados.\\n        \\n    ' to have a length at most 300 but got 673\n    at Context.eval (http://localhost:44161/__cypress/tests?p=cypress/integration/project.spec.js:240:41)",
+                "diff": "- 673\n+ 300\n"
+              },
+              "uuid": "c7c4a497-f19b-4562-8f99-cb6cbf6ca4cb",
+              "parentUUID": "d3fdae79-81bd-4ee2-92ae-c51ef8436c9a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3f7e4d4f-0f49-4047-8b85-f0ab047eca10"
+          ],
+          "failures": [
+            "c7c4a497-f19b-4562-8f99-cb6cbf6ca4cb"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 223,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+          "title": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validar se a página possui um elemento \"article\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"article\"",
+              "timedOut": null,
+              "duration": 110,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('article');",
+              "err": {},
+              "uuid": "0b94913e-e2e6-4a7f-8948-bbebdc6a2171",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar se a página possui um elemento \"header\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"header\"",
+              "timedOut": null,
+              "duration": 90,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('header');",
+              "err": {},
+              "uuid": "3ee4afbb-bbce-4c49-9029-aa596085d852",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar se a página possui um elemento \"nav\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"nav\"",
+              "timedOut": null,
+              "duration": 119,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('nav');",
+              "err": {},
+              "uuid": "184895b9-3cee-42cf-8b6f-e3197df6e9c0",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar se a página possui um elemento \"section\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"section\"",
+              "timedOut": null,
+              "duration": 100,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('section');",
+              "err": {},
+              "uuid": "1bfb1b28-7591-4b09-a2a9-76ee442a248b",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar se a página possui um elemento \"aside\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"aside\"",
+              "timedOut": null,
+              "duration": 148,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('aside');",
+              "err": {},
+              "uuid": "65592af6-f704-4714-b72f-e83bc0871956",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validar se a página possui um elemento \"footer\"",
+              "fullTitle": "10 - Aplique elementos HTML de acordo com o sentido e propósito de cada um deles Validar se a página possui um elemento \"footer\"",
+              "timedOut": null,
+              "duration": 104,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "(0, _ActionBase.shouldExist)('footer');",
+              "err": {},
+              "uuid": "61aad0dd-0f0b-4ef5-8ea3-a64f9a197965",
+              "parentUUID": "fcaa6be2-c212-4844-8a6a-e07e342414e7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "0b94913e-e2e6-4a7f-8948-bbebdc6a2171",
+            "3ee4afbb-bbce-4c49-9029-aa596085d852",
+            "184895b9-3cee-42cf-8b6f-e3197df6e9c0",
+            "1bfb1b28-7591-4b09-a2a9-76ee442a248b",
+            "65592af6-f704-4714-b72f-e83bc0871956",
+            "61aad0dd-0f0b-4ef5-8ea3-a64f9a197965"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 671,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "b83a8769-bb89-4fcd-b09a-17f85a8f4d0f",
+          "title": "11 - Teste a semântica da sua página está aprovada pelo site CodeSniffer",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Seu site deve passar sem problemas na verificação de semântica do site CodeSniffer",
+              "fullTitle": "11 - Teste a semântica da sua página está aprovada pelo site CodeSniffer Seu site deve passar sem problemas na verificação de semântica do site CodeSniffer",
+              "timedOut": null,
+              "duration": 11866,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.readFile('./index.html').then(function (content) {\n  cy.visit('http://squizlabs.github.io/HTML_CodeSniffer/');\n  cy.get('#runHTMLCS').click();\n  cy.get('#source').invoke('val', content).trigger('input');\n  cy.get('#run-button').click();\n  cy.get('.result-count-errors').contains(/^0$/);\n});",
+              "err": {
+                "message": "AssertionError: Timed out retrying: Expected to find content: '/^0$/' within the element: <span.result-count.result-count-errors> but never did.",
+                "estack": "AssertionError: Timed out retrying: Expected to find content: '/^0$/' within the element: <span.result-count.result-count-errors> but never did.\n    at Context.eval (http://squizlabs.github.io/__cypress/tests?p=cypress/integration/project.spec.js:274:38)",
+                "diff": null
+              },
+              "uuid": "df8cab7a-bd94-480b-8748-9432a5e8053e",
+              "parentUUID": "b83a8769-bb89-4fcd-b09a-17f85a8f4d0f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "df8cab7a-bd94-480b-8748-9432a5e8053e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 11866,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}

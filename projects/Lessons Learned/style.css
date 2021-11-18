@@ -1,0 +1,96 @@
+/*Cabeçalho no topo fixado*/
+*{
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    top:0;
+    width: 100%;
+    position: fixed;
+    background-color: #F1C40F;
+}
+
+#titulo{
+    margin: 15px;
+    padding-left: 90px;
+    font-size: 42pt;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    letter-spacing: 12px;
+}
+
+#cabecalho nav{
+    background-color: #17202A;
+    text-align: center;
+}
+
+#cabecalho nav li{
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+#cabecalho a{
+    padding: 9px;
+    text-decoration: none;
+    font-size: 18pt;
+    font-weight: 700;
+    color: #F1C40F;
+    border: 1px solid #17202A;
+}
+
+#cabecalho a:hover {
+    transition: 0.6s;
+    border: 1px solid white;
+    background: #1B2631;
+}
+
+body {
+    font-size: 15pt;
+    color: white;
+    margin-top: 150px;
+    background-color: #8E44AD;
+    display: flex;
+
+}
+
+section {
+    padding: 21px;
+}
+
+#minha_foto {
+    cursor: pointer;
+    transition: 3s;
+    width: 222px;
+    border-radius: 100%;
+}
+
+#minha_foto:hover {
+    width: 250px;
+}
+
+
+#info {
+    color: white;
+    /* display:inline-block; */
+}
+
+#info h3{
+    font-weight: 500;
+    margin: 10px;
+}
+
+article {
+    margin: 30px;
+}
+
+article p {
+    /* font-size: 18pt; */
+}
+
+aside{
+    margin: 30px;
+    /* float:right; */
+}

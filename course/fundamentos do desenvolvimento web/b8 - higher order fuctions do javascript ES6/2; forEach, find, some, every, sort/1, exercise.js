@@ -90,7 +90,7 @@ function someBookWasReleaseOnThe80s() {
 }
 
 function authorUnique(){
-PAROU AQUI
+	// 7 - Faça uma função que retorne true , caso nenhum author tenha nascido no mesmo ano, e false , caso contrário.
 }
 
 console.log(authorUnique());

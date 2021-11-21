@@ -8,7 +8,7 @@ const books = require('./books');
 function fantasyOrScienceFictionAuthors() {
     return books
     .filter(book => book.genre != "Terror")
-    .map(book => `${book.author['name']}`)
+    .map(book => book.author['name'])
     .sort();
 }
 

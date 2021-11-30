@@ -1,7 +1,11 @@
-const numbers = [18, 19, 23, 53, 4, 5, 76, 23, 54];
+// transforme a matriz em um array.
+const matrix = [['1', '2', '3'], [true], [4, 5, 6]];
 
-function sum(array){
-  return array.reduce((evens, number) => (number % 2 == 0) ? evens + number : evens);
+function flatten(matrix) {
+	return matrix.reduce((acc, value) => {
+		value.forEach((element) => acc.push(element));
+		return acc;
+	}, []);
 }
 
-console.log(sum(numbers));
+console.log(flatten(matrix));

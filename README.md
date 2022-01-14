@@ -76,7 +76,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 ### Bloco 8: JavaScript ES6 ✔️
 
 - [x] Dia 1: _JavaScript ES6 - Introdução a Higher Order Functions_
-- [ ] Dia 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] Dia 2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [x] Dia 3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [x] Dia 4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [x] Dia 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
@@ -87,7 +87,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _JavaScript Assí­ncrono e Callbacks_
 - [x] Dia 2: _JavaScript Assí­ncrono - Fetch API e aync/await_
 - [x] Dia 3: _Jest_ - Testes Assíncronos
-- [ ] Dia 4: _Projeto - Carrinho de Compras_
+- [x] Dia 4: _[Projeto - Carrinho de Compras](https://github.com/Adolligit/Trybe/tree/master/projects/Shopping%20Cart)_
 
 ## Desenvolvimento Front-end 💄
 

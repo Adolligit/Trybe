@@ -87,7 +87,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _JavaScript Assí­ncrono e Callbacks_
 - [x] Dia 2: _JavaScript Assí­ncrono - Fetch API e aync/await_
 - [x] Dia 3: _Jest_ - Testes Assíncronos
-- [x] Dia 4: _[Projeto - Carrinho de Compras](https://github.com/Adolligit/Trybe/tree/master/projects/Shopping%20Cart)_
+- [x] Dia 4: _[Projeto - Carrinho de Compras](https://bit.ly/shoppin-cart)_
 
 ## Desenvolvimento Front-end 💄
 

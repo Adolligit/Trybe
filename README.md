@@ -93,10 +93,10 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 
 ### Bloco 10: Introdução à React 
 
-- [ ] Dia 1: _Introdução - Front-end_
-- [ ] Dia 1: _Introdução - React_
-- [ ] Dia 1: _'Hello, wolrd!' no React_
-- [ ] Dia 2: _Componentes React_
+- [x] Dia 1: _Introdução - Front-end_
+- [x] Dia 1: _Introdução - React_
+- [x] Dia 1: _'Hello, wolrd!' no React_
+- [x] Dia 2: _Componentes React_
 - [ ] Dia 3: _Projeto - Sistema Solar_
 
 ### Bloco 11: Componente com Estado, eventos e Formulários com React

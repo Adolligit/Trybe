@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 const compromissos = ['Revisão', 'Momento Inicial', 'Conteúdo do Course', 'Aula ao Vivo', 'Exercícios', 'Fechamento']

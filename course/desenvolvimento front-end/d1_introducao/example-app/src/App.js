@@ -1,10 +1,11 @@
+import React, { Component } from 'react';
+import DontUseWordReserved from './DontUseWordReserved';
 import './App.css';
-import Meliante from './DontUseWordReserved';
 
-function App() {
-  return (
-    <Meliante/>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <DontUseWordReserved />
+    );
+  }
 }
-
-export default App;

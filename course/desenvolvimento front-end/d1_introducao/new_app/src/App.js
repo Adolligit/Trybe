@@ -1,12 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className='App'>
-      <h1>APP</h1>
-    </div>
-  );
-}
+import HelloWorld from './HelloWorld';
+import ComponenteQlQr from './ComponenteQlQr';
 
-export default App;
+export default class App extends Component {
+  render() {
+    return (
+      <React.Fragment>
+        <HelloWorld/>,
+        <ComponenteQlQr />
+      </React.Fragment>
+    );
+  }
+}

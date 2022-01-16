@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-
-class DontUseWordReserved extends Component {
+import React from 'react';
+class DontUseWordReserved extends React.Component {
   Meliante(){
     return (
       <>
@@ -8,6 +7,9 @@ class DontUseWordReserved extends Component {
         <p>i'm 23 old, my name's Adelson Lima and i develop software to web</p>
       </>
     );
+  }
+  render() {
+    return (this.Meliante());
   }
 }
 

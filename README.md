@@ -97,7 +97,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _Introdução - React_
 - [x] Dia 1: _'Hello, wolrd!' no React_
 - [x] Dia 2: _Componentes React_
-- [ ] Dia 3: _Projeto - Sistema Solar_
+- [x] Dia 3: _Projeto - Sistema Solar(https://bit.ly/project-solar-system)_
 
 ### Bloco 11: Componente com Estado, eventos e Formulários com React
 

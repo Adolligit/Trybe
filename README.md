@@ -82,7 +82,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [x] Dia 6: _[Projeto - Zoo functions](https://git.io/JyYTJ)_
 
-### Bloco 9: JavaScript e Testes Assíncronos ⚠️
+### Bloco 9: JavaScript e Testes Assíncronos ✔️
 
 - [x] Dia 1: _JavaScript Assí­ncrono e Callbacks_
 - [x] Dia 2: _JavaScript Assí­ncrono - Fetch API e aync/await_
@@ -91,13 +91,13 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 
 ## Desenvolvimento Front-end 💄
 
-### Bloco 10: Introdução à React 
+### Bloco 10: Introdução à React ✔️
 
 - [x] Dia 1: _Introdução - Front-end_
 - [x] Dia 1: _Introdução - React_
 - [x] Dia 1: _'Hello, wolrd!' no React_
 - [x] Dia 2: _Componentes React_
-- [x] Dia 3: _Projeto - Sistema Solar(https://bit.ly/project-solar-system)_
+- [x] Dia 3: _[Projeto - Sistema Solar](https://bit.ly/project-solar-system)_
 
 ### Bloco 11: Componente com Estado, eventos e Formulários com React
 

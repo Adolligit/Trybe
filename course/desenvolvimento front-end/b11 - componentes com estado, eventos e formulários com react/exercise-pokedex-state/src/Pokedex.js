@@ -6,7 +6,6 @@ class Pokedex extends React.Component {
 		super(props);
 		this.state = {
 			indexPokemon: 0,
-			filter: null,
 		};
 
 		this.nextPokemon = this.nextPokemon.bind(this);
@@ -26,7 +25,6 @@ class Pokedex extends React.Component {
 		const { indexPokemon } = this.state;
 		const { pokemons: { length } } = this.props; 
 
-		console.log(indexPokemon);
 		this.setState({
 			indexPokemon: (indexPokemon > 0) ? indexPokemon - 1 : length - 1 
 		});

@@ -11,9 +11,14 @@ class App extends React.Component {
   }
 
   setInterval() {
-    this.setState({
-      numberInterval: this.state.numberInterval + 1
-    });
+    this.setState((state, _props) => ({
+      numberInterval: state.numberInterval + 1
+    }));
+    
+    const par = this.state.numberInterval + 1;
+    if (par % 2 === 0){
+      console.log('verde')
+    }
   }
 
   render() {   

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Input from './Input';
 class Form extends React.Component {
   constructor(props){
     super(props);
@@ -12,12 +12,13 @@ class Form extends React.Component {
       verificado: false,
     }
 
-    this.capText = this.capText.bind(this);
+    this.captureChange = this.captureChange.bind(this);
   }
 
-  capText({ target }){
+  captureChange({ target }){
     const { value, name, type, checked } = target;
 
+    console.log(value, name, type, checked);
     this.setState({
       [name]: (type !== "checkbox") ? value : checked
     });
@@ -25,22 +26,23 @@ class Form extends React.Component {
 
   render(){
     const { selecao, first_name, last_name, description, value } = this.state; 
+  
     return(
        <form action="">
          <br />
-         <select onChange={this.capText} name="selecao" value={ selecao }>
+         <select onChange={this.captureChange} name="selecao" value={ selecao }>
            <option value="item1">Só tem esse</option>
            <option value="item2">mais um</option>
            <option value="item3">último</option>
          </select>
          <br />
-         <input onChange={this.capText} name="first_name" type="text" value={ first_name }/>
+         <Input name="first_name" handleFunction={ this.captureChange } handleState={ first_name }/>
          <br />
-         <input onChange={this.capText} name="last_name" type="text" value={ last_name }/>
+         <Input name="last_name" handleFunction={ this.captureChange } handleState={ last_name }/>
          <br />
-         <textarea onChange={this.capText} name="description" cols="30" rows="10" value={ description }/>
+         <textarea onChange={this.captureChange} name="description" cols="30" rows="10" value={ description }/>
          <br />
-         <input onChange={this.capText} type="checkbox" name="verificado" value={ value } />
+         <input onChange={this.captureChange} type="checkbox" name="verificado" value={ value } />
       </form>
     );
   }

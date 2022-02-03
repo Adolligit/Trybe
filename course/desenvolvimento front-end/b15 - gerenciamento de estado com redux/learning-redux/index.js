@@ -1,24 +1,31 @@
+// Importar o Redux
+// Criar um objeto para o estado inicial
+// Criar uma função Reducer com um Switch baseado no segundo parâmetro (ACTION)
+// Criar um "default parameter" no primeiro argumento (STATE) da função Reducer
+// Criar o armazenamento dos estados (STORE) com a função "Redux.createStore(Reducer)"
+
 const Redux = require('redux');
+const INITIAL_STATE = {
+  messageAfterEvent: "",
+}
 
-const fazerLogin = (email) => ({ type: "LOGIN", email })
-
-const ESTADO_INICIAL = { login: false, email: "" }
-
-const reducer = (state = ESTADO_INICIAL, action) => {
+function Reducer (state = INITIAL_STATE, action) {
   switch(action.type){
-    case "LOGIN":
+    case "CLICK":
       return {
         ...state,
-        login: !state.login,
-        email: action.email,
-    };
+        messageAfterEvent: action.messageAfterEvent,
+      }
     default:
       return state;
   }
-};
+}
 
-const store = Redux.createStore(reducer);
+const store = Redux.createStore(Reducer);
 
-store.dispatch(fazerLogin("adelson@gmail.com"));
+store.dispatch({
+  type: "CLICK",
+  messageAfterEvent: "Cliquei no botão",
+})
 
 console.log(store.getState());

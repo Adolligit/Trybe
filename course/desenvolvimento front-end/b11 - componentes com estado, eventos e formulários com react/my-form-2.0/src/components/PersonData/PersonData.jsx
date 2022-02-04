@@ -7,7 +7,7 @@ import Cidade from './Cidade';
 import Estado from './Estado';
 import Tipo from './Tipo';
 
-class Fildset extends React.Component {
+class PersonData extends React.Component {
   constructor(){
     super();
     this.state = {
@@ -46,4 +46,4 @@ class Fildset extends React.Component {
   }
 }
 
-export default Fildset;
+export default PersonData;

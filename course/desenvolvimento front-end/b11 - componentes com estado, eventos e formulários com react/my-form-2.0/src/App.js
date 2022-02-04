@@ -1,9 +1,14 @@
 import './App.css';
-import Fildset from './components/Fildset';
+import PersonData from './components/PersonData/PersonData';
+import ProfessionalXp from './components/ProfessionalXp/ProfessionalXp';
 
 function App() {
   return (
-    <Fildset/>
+    <>
+      <PersonData/>
+      <ProfessionalXp/>
+
+    </>
   );
 }
 

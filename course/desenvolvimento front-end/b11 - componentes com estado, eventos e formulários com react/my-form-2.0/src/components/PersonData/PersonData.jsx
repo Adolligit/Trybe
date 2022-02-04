@@ -33,14 +33,16 @@ class PersonData extends React.Component {
     const { name, email, cpf, endereco, cidade, estado, tipo } = this.state;
 
     return(
-      <fieldset> Dados pessoais
-        <Name currentState={name} changeState={this.changeState}/>
-        <Email currentState={email} changeState={this.changeState}/>
-        <CPF currentState={cpf} changeState={this.changeState}/>
-        <Endereco currentState={endereco} changeState={this.changeState}/>
-        <Estado currentState={estado} changeState={this.changeState}/>
-        <Cidade currentState={cidade} changeState={this.changeState}/>
-        <Tipo currentState={tipo} changeState={this.changeState}/>
+      // para que CSS se você tem a tag  <br />? (risos)
+      <fieldset>
+        <h1>Dados pessoais</h1>
+        <Name currentState={name} changeState={this.changeState}/> <br />
+        <Email currentState={email} changeState={this.changeState}/> <br />
+        <CPF currentState={cpf} changeState={this.changeState}/> <br />
+        <Endereco currentState={endereco} changeState={this.changeState}/> <br />
+        <Estado currentState={estado} changeState={this.changeState}/> <br />
+        <Cidade currentState={cidade} changeState={this.changeState}/> <br />
+        <Tipo currentState={tipo} changeState={this.changeState}/> <br />
       </fieldset>
     );
   }

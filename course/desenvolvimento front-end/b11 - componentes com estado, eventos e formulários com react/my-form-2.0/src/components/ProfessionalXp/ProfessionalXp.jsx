@@ -1,11 +1,15 @@
 import React from 'react';
-import TextArea from './TextArea';
+import Cargo from './Cargo';
+import Curriculo from './Curriculo';
+import DescricaoCargo from './DescricaoCargo';
 
 class ProfessionalXp extends React.Component {
   constructor(){
     super();
     this.state = {
       resumoCurriculo: "",
+      cargo: "",
+      descricaoCargo: "",
     }
 
     this.changeState = this.changeState.bind(this);
@@ -18,10 +22,15 @@ class ProfessionalXp extends React.Component {
   }
 
   render(){
-    const { textarea } = this.state;
+    const { resumoCurriculo, cargo, descricaoCargo } = this.state;
 
     return(
-      <TextArea funcChangeState={this.changeState} getCurrentState={textarea}/>
+      <fieldset>
+        <h1>Experiência profissional</h1>
+        <Curriculo funcChangeState={this.changeState} getCurrentState={resumoCurriculo}/>
+        <Cargo funcChangeState={this.changeState} getCurrentState={cargo}/>
+        <DescricaoCargo funcChangeState={this.changeState} getCurrentState={descricaoCargo}/>
+      </fieldset>
     );
   }
 }

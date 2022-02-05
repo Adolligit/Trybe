@@ -25,6 +25,9 @@ class PersonData extends React.Component {
 
   changeState({ target }){
     const { name, value } = target;
+    const { returnState } = this.props;
+    
+    returnState(this.state)
 
     this.setState({ [name]: value });
   }

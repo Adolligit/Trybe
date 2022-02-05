@@ -17,12 +17,15 @@ class ProfessionalXp extends React.Component {
 
   changeState({ target }){
     const { name, value } = target;
+    const { returnState } = this.props;
+    
+    returnState(this.state)
 
     this.setState({ [name]: value });
   }
 
   render(){
-    const { resumoCurriculo, cargo, descricaoCargo } = this.state;
+    const { resumoCurriculo, cargo, descricaoCargo, div } = this.state;
 
     return(
       <fieldset>

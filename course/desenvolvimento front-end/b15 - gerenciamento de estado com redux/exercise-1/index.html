@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://unpkg.com/redux@latest/dist/redux.min.js"></script>
+  <style>
+    body {
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button {
+      height: 50px;
+      width: 200px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <p>Color: <span id="value">white</span></p>
+    <button id="previous">Previous color</button>
+    <button id="next">Next color</button>
+    <button id="random">Random color</button>
+  </div>
+
+  <script>
+    const ESTADO_INICIAL = {
+      colors: ['white', 'black', 'red', 'green', 'blue', 'yellow'],
+      index: 0,
+      randomColor: "rgb(0, 0, 0)"
+    };
+
+    function Reducer(state = ESTADO_INICIAL, action) {
+      switch (action.type) {
+        case "NEXT_COLOR":
+          return {
+            ...state,
+            index: state.index + 1
+          };
+        case "PREVIOUS_COLOR":
+          return {
+            ...state,
+            index: state.index - 1
+          };
+        case "RANDOM_COLOR":
+          return {
+            ...state,
+            colors:   action.color
+          };
+        default:
+          return state;
+      }
+    }
+
+    const store = Redux.createStore(Reducer);
+
+    function randomColor(){
+      const first = Math.floor(Math.random() * 255);
+      const second = Math.floor(Math.random() * 255);
+      const third = Math.floor(Math.random() * 255);
+
+      return `rgb(${first}, ${second}, ${third})`
+    }
+    
+    document.getElementById('next').addEventListener('click', (target) => {
+      const { index, colors } = store.getState();
+      
+      if(index < (colors.length - 1)) store.dispatch({ type: "NEXT_COLOR" });
+    });
+    
+    document.getElementById('previous').addEventListener('click', (target) => {
+      const { index } = store.getState();
+      
+      if(index) store.dispatch({ type: "PREVIOUS_COLOR" });
+
+    });
+
+    document.getElementById('random').addEventListener('click', (target) => {
+      store.dispatch({ 
+        type: "RANDOM_COLOR", 
+        color: randomColor(),
+       });
+    });
+    
+
+    store.subscribe(() => {
+      const { colors, index, randomColor } = store.getState();
+      const value = document.getElementById("value");
+      const container = document.getElementById("container");
+      
+      value.innerHTML = colors[index];
+      container.style.backgroundColor = colors[index];
+      container.style.backgroundColor = randomColor;
+    })
+
+  </script>
+
+</body>
+
+</html>

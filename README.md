@@ -99,7 +99,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 2: _Componentes React_
 - [x] Dia 3: _[Projeto - Sistema Solar](https://bit.ly/project-solar-system)_
 
-### Bloco 11: Componente com Estado, eventos e Formulários com React
+### Bloco 11: Componente com Estado, eventos e Formulários com React ✔️
 
 - [x] Dia 1: _[Components com estado e eventos](https://bit.ly/exercise-pokedex)_
 - [x] Dia 2: _Formulários no React_

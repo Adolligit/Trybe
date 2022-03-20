@@ -105,21 +105,21 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 2: _Formulários no React_
 - [x] Dia 3: _[Projeto - Tryunfo](https://bit.ly/project-tryunfo)_
 
-### Bloco 12: Ciclo de Vida de Componente e React Router
+### Bloco 12: Ciclo de Vida de Componente e React Router ✔️
 
-- [ ] Dia 1: _Ciclo de vida de componentes_
-- [ ] Dia 2: _React Router_
-- [ ] Dia 4: _Projeto - TrybeTunes_
+- [x] Dia 1: _Ciclo de vida de componentes_
+- [x] Dia 2: _React Router_
+- [x] Dia 4: _[Projeto - TrybeTunes](https://bit.ly/project-trybetunes)_
 
 ### Bloco 13: Metodologias Ágeis
 
-- [ ] Dia 1: _Metodologias Ágeis_
+- [x] Dia 1: _Metodologias Ágeis_
 - [ ] Dia 2: _Projeto - Frontend Online Store_
 
 ### Bloco 14: Testes em automatizados com React Testing Library
 
-- [ ] Dia 1: _RTL - Primeiros passos_
-- [ ] Dia 2: _RTL - Mocks e Inputs_
+- [x] Dia 1: _RTL - Primeiros passos_
+- [x] Dia 2: _RTL - Mocks e Inputs_
 - [ ] Dia 3: _RTL - Testando React Router_
 - [ ] Dia 3: _Projeto - Testes em React_
 

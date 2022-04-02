@@ -120,8 +120,8 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 
 - [x] Dia 1: _RTL - Primeiros passos_
 - [x] Dia 2: _RTL - Mocks e Inputs_
-- [ ] Dia 3: _RTL - Testando React Router_
-- [ ] Dia 3: _Projeto - Testes em React_
+- [x] Dia 3: _RTL - Testando React Router_
+- [x] Dia 3: _[Projeto - Testes em React]()_
 
 ### Bloco 15: Gerenciamento de estado com Redux
 

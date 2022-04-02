@@ -116,20 +116,20 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _Metodologias Ágeis_
 - [ ] Dia 2: _Projeto - Frontend Online Store_
 
-### Bloco 14: Testes em automatizados com React Testing Library
+### Bloco 14: Testes em automatizados com React Testing Library ✔️
 
 - [x] Dia 1: _RTL - Primeiros passos_
 - [x] Dia 2: _RTL - Mocks e Inputs_
 - [x] Dia 3: _RTL - Testando React Router_
-- [x] Dia 3: _[Projeto - Testes em React]()_
+- [x] Dia 3: _[Projeto - Testes em React](https://bit.ly/project-react-testing-library)_
 
 ### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] Dia 1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] Dia 2: _Usando o Redux no React_
-- [ ] Dia 3: _Usando o Redux no React - Prática_
-- [ ] Dia 4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] Dia 5: _Testes em React-Redux_
+- [x] Dia 1: _Introdução ao Redux - O estado global da aplicação_
+- [x] Dia 2: _Usando o Redux no React_
+- [x] Dia 3: _Usando o Redux no React - Prática_
+- [x] Dia 4: _Usando o Redux no React - Actions Assíncronas_
+- [x] Dia 5: _Testes em React-Redux_
 - [ ] Dia 6: _Projeto - Trybe Wallet_
 
 ### Bloco 16: Projeto Jogo de Trivia

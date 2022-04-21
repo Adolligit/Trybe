@@ -111,10 +111,10 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 2: _React Router_
 - [x] Dia 4: _[Projeto - TrybeTunes](https://bit.ly/project-trybetunes)_
 
-### Bloco 13: Metodologias Ágeis
+### Bloco 13: Metodologias Ágeis ✔️
 
 - [x] Dia 1: _Metodologias Ágeis_
-- [ ] Dia 2: _Projeto - Frontend Online Store_
+- [x] Dia 2: _[Projeto - Frontend Online Store](https://bit.ly/project-front-end-online-store)_
 
 ### Bloco 14: Testes em automatizados com React Testing Library ✔️
 
@@ -123,18 +123,18 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 3: _RTL - Testando React Router_
 - [x] Dia 3: _[Projeto - Testes em React](https://bit.ly/project-react-testing-library)_
 
-### Bloco 15: Gerenciamento de estado com Redux
+### Bloco 15: Gerenciamento de estado com Redux ✔️
 
 - [x] Dia 1: _Introdução ao Redux - O estado global da aplicação_
 - [x] Dia 2: _Usando o Redux no React_
 - [x] Dia 3: _Usando o Redux no React - Prática_
 - [x] Dia 4: _Usando o Redux no React - Actions Assíncronas_
 - [x] Dia 5: _Testes em React-Redux_
-- [ ] Dia 6: _Projeto - Trybe Wallet_
+- [x] Dia 6: _[Projeto - Trybe Wallet](https://bit.ly/project-trybe-wallet)_
 
-### Bloco 16: Projeto Jogo de Trivia
+### Bloco 16: Projeto Jogo de Trivia ✔️
 
-- [ ] Dia 1: _Projeto - Jogo de Trivia_
+- [x] Dia 1: _[Projeto - Jogo de Trivia](https://bit.ly/project-trivia-rr)_
 
 ### Bloco 17: Context API e React Hooks
 

@@ -141,13 +141,13 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _Context API do React_
 - [x] Dia 2: _React Hooks - useState e useContext_
 - [x] Dia 3: _React Hooks - useEffect e Hooks customizados_
-- [x] Dia 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] Dia 4: _[Projeto - StarWars Datatable com Context API e Hooks](https://bit.ly/project-starwars)_
 
 ### Bloco 18: Projeto App de Receitas ✔️
 
-- [x] Dia 1: _[Projeto - App de Receitas]()_
+- [x] Dia 1: _[Projeto - App de Receitas](https://bit.ly/project-recipes-app)_
 
-## Desenvolvimento Back-end 💀
+## Desenvolvimento Back-end 💰
 
 ### Bloco 19: Docker - Utilizando Containers ✔️
 
@@ -155,7 +155,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 1: _Utilizando Containers - Docker_
 - [x] Dia 2: _Manipulação e Criação de Imagens no Docker_
 - [x] Dia 3: _Orquestrando Containers com Docker Compose_
-- [x] Dia 4: _[Projeto - Docker Todo-List]()_
+- [x] Dia 4: _[Projeto - Docker Todo-List](https://bit.ly/project-docker-todo-list)_
 
 ### Bloco 20: Introdução à SQL ✔️
 
@@ -164,14 +164,14 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 2: _Encontrando dados em um banco de dados_
 - [x] Dia 3: _Filtrando dados de forma específica_
 - [x] Dia 4: _Manipulando tabelas_
-- [x] Dia 5: _[Projeto - All Fro One]()_
+- [x] Dia 5: _[Projeto - All For One](https://bit.ly/project-all-for-one)_
 
 ### Bloco 21: Funções SQL, JOINs e Normalização ✔️
 
 - [x] Dia 1: _Funções mais usadas no SQL_
 - [x] Dia 2: _Descomplicando JOIN's_
 - [x] Dia 3: _Transformando ideias em um modelo de banco de dados_
-- [x] Dia 4: _[Projeto - One For All]()_
+- [x] Dia 4: _[Projeto - One For All](https://bit.ly/project-one-for-all)_
 
 ### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 

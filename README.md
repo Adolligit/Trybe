@@ -147,7 +147,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 
 - [x] Dia 1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end 💤
+## Desenvolvimento Back-end 💀
 
 ### Bloco 19: Docker - Utilizando Containers ✔️
 

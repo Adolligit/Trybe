@@ -136,48 +136,48 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 
 - [x] Dia 1: _[Projeto - Jogo de Trivia](https://bit.ly/project-trivia-rr)_
 
-### Bloco 17: Context API e React Hooks
+### Bloco 17: Context API e React Hooks ✔️
 
-- [ ] Dia 1: _Context API do React_
-- [ ] Dia 2: _React Hooks - useState e useContext_
-- [ ] Dia 3: _React Hooks - useEffect e Hooks customizados_
-- [ ] Dia 4: _Projeto - StarWars Datatable com Context API e Hooks_
+- [x] Dia 1: _Context API do React_
+- [x] Dia 2: _React Hooks - useState e useContext_
+- [x] Dia 3: _React Hooks - useEffect e Hooks customizados_
+- [x] Dia 4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-### Bloco 18: Projeto App de Receitas
+### Bloco 18: Projeto App de Receitas ✔️
 
-- [ ] Dia 1: _Projeto - App de Receitas_
+- [x] Dia 1: _[Projeto - App de Receitas]()_
 
 ## Desenvolvimento Back-end 💤
 
-### Bloco 19: Docker - Utilizando Containers
+### Bloco 19: Docker - Utilizando Containers ✔️
 
-- [ ] Dia 1: _Introdução - Back-end_
-- [ ] Dia 1: _Utilizando Containers - Docker_
-- [ ] Dia 2: _Manipulação e Criação de Imagens no Docker_
-- [ ] Dia 3: _Orquestrando Containers com Docker Compose_
-- [ ] Dia 4: _Projeto - Docker Todo-List_
+- [x] Dia 1: _Introdução - Back-end_
+- [x] Dia 1: _Utilizando Containers - Docker_
+- [x] Dia 2: _Manipulação e Criação de Imagens no Docker_
+- [x] Dia 3: _Orquestrando Containers com Docker Compose_
+- [x] Dia 4: _[Projeto - Docker Todo-List]()_
 
-### Bloco 20: Introdução à SQL
+### Bloco 20: Introdução à SQL ✔️
 
-- [ ] Dia 1: _Introdução - Banco de dados relacionais_
-- [ ] Dia 1: _Banco de dados SQL_
-- [ ] Dia 2: _Encontrando dados em um banco de dados_
-- [ ] Dia 3: _Filtrando dados de forma específica_
-- [ ] Dia 4: _Manipulando tabelas_
-- [ ] Dia 5: _Projeto - Vocabulary Booster_
+- [x] Dia 1: _Introdução - Banco de dados relacionais_
+- [x] Dia 1: _Banco de dados SQL_
+- [x] Dia 2: _Encontrando dados em um banco de dados_
+- [x] Dia 3: _Filtrando dados de forma específica_
+- [x] Dia 4: _Manipulando tabelas_
+- [x] Dia 5: _[Projeto - All Fro One]()_
 
-### Bloco 21: Funções SQL, JOINs e Normalização
+### Bloco 21: Funções SQL, JOINs e Normalização ✔️
 
-- [ ] Dia 1: _Funções mais usadas no SQL_
-- [ ] Dia 2: _Descomplicando JOIN's_
-- [ ] Dia 3: _Transformando ideias em um modelo de banco de dados_
-- [ ] Dia 4: _Projeto - One For All_
+- [x] Dia 1: _Funções mais usadas no SQL_
+- [x] Dia 2: _Descomplicando JOIN's_
+- [x] Dia 3: _Transformando ideias em um modelo de banco de dados_
+- [x] Dia 4: _[Projeto - One For All]()_
 
 ### Bloco 22: Introdução ao desenvolvimento Web com Node.js
 
-- [ ] Dia 1: _Intro - Node.js_
-- [ ] Dia 1: _Node.js - Um motor JavaScript_
-- [ ] Dia 2: _Node.js - Fluxo Assíncrono_
+- [x] Dia 1: _Intro - Node.js_
+- [x] Dia 1: _Node.js - Um motor JavaScript_
+- [x] Dia 2: _Node.js - Fluxo Assíncrono_
 - [ ] Dia 3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_
 - [ ] Dia 4: _Express - HTTP com Node.js_
 - [ ] Dia 5: _Express - Middlewares_

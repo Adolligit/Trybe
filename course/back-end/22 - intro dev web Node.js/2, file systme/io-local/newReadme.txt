@@ -1,0 +1,1 @@
+Novo arquivo escrito com ' File System Async Import Promises'. Sendo assim, utilizamos '.promises' na importação.

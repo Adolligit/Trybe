@@ -173,7 +173,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [x] Dia 3: _Transformando ideias em um modelo de banco de dados_
 - [x] Dia 4: _[Projeto - One For All](https://bit.ly/project-one-for-all)_
 
-### Bloco 22: Introdução ao desenvolvimento Web com Node.js 🚀
+### Bloco 22: Introdução ao desenvolvimento Web com Node.js ⚠️
 
 - [x] Dia 1: _Intro - Node.js_
 - [x] Dia 1: _Node.js - Um motor JavaScript_
@@ -181,9 +181,9 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [ ] Dia 3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_ 🔴
 - [x] Dia 4: _Express - HTTP com Node.js_
 - [x] Dia 5: _Express - Middlewares_
-- [ ] Dia 6: _Projeto - Talker Manager_
+- [x] Dia 6: _[Projeto - Talker Manager](www.google.com)_
 
-### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful
+### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful 🚀
 
 - [ ] Dia 1: _Introdução - Arquitetura de Software_
 - [ ] Dia 1: _Arquitetura de Software - Camada de Model_

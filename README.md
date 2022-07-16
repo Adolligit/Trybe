@@ -181,7 +181,7 @@ Por fim, ressalto que não foram todos os projetos da Trybe que eu desenvolvi, p
 - [ ] Dia 3: _Mocha, Chai e Sinon - Testes de Back-end com Node.js_ 🔴
 - [x] Dia 4: _Express - HTTP com Node.js_
 - [x] Dia 5: _Express - Middlewares_
-- [x] Dia 6: _[Projeto - Talker Manager](www.google.com)_
+- [x] Dia 6: _[Projeto - Talker Manager](https://bit.ly/project-talker-manager)_
 
 ### Bloco 23: Node.js - Camada de Serviço e Arquitetura Rest e Restful 🚀
 

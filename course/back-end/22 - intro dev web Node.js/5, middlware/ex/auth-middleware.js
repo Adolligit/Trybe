@@ -5,7 +5,8 @@ const validUsers = [
   { username: 'UpWay', password: 'Senha123Mudar' },
 ];
 
-module.exports = (req, res, next) => {
+module.exports = 
+(req, res, next) => {
   const { username, password }= req.headers;
 
   if (!username || !password){

@@ -27,6 +27,7 @@ const createAuthor = async (req, res, next) => {
     first_name: firstName,
     middle_name: middleName,
     last_name: lastName,
+    contacts,
   } = req.body;
 
   /*
@@ -34,10 +35,12 @@ const createAuthor = async (req, res, next) => {
     Para isso, chamamos Joi.object() passando um objeto com os campos da requisição
     e sua descrições
   */
+
  const { error } = Joi.object({
    firstName: Joi.string().not().empty().required(),
    lastName: Joi.string().not().empty().required(),
- }).validate({ firstName, lastName });
+   contacts: Joi.array().items(Joi.string().required()).min(1).required(),
+ }).validate({ firstName, lastName, contacts });
  
  /*
   Por fim, nesta última linha de código, pedimos que o Joi verifique se o corpo da
@@ -49,7 +52,7 @@ const createAuthor = async (req, res, next) => {
   if (error) return next(error);
 
   // Caso não haja erro de validação, prosseguimos com a criação da pessoa autora
-  const newAuthor = await Author.createAuthor(firstName, middleName, lastName);
+  const newAuthor = await Author.createAuthor(firstName, middleName, lastName, contacts);
 
   // Caso haja erro na criação da pessoa autora, iniciamos o fluxo de erro
   if (newAuthor.error) return next(newAuthor.error);
